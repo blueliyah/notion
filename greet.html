@@ -4,9 +4,9 @@
     <style>
       #lbl {
         display: flex;
-        font-family: sans-serif;
+        font-family: serif;
         font-size: 18pt;
-        color: #ff5757;
+        color: #C1A378;
         padding: 5px;
         border: 1px solid #ffffff;
         justify-content: left;
@@ -66,8 +66,9 @@
 
     document.getElementById('lbl').innerHTML = `
         <div class="container">
-          <div id="date"> ${date}</div>
           <div class="greeting">${greet}</div>
+          <div id="date"> Today is ${date}</div>
+         
         <div/>
     `;
 </script> 
